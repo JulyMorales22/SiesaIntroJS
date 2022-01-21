@@ -23,7 +23,8 @@ const cambiarNombre = () =>{
 // para sacar datos del local storage
 if (localStorage.getItem("nombre")) {
     nombreUsuario.innerHTML = "Bienvenido/a "+ localStorage.getItem("nombre");
-}
+    console.log(nombre);
+}d
 
 
 //Eventos se recomienda que vayan al final
